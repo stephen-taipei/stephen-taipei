@@ -80,3 +80,21 @@
 <p align="center">
   <i>Open to CTO roles · Technical advisory · Senior engineering leadership</i>
 </p>
+
+---
+
+### 💡 Recent Work Highlights
+
+- **Zero-downtime legacy refactor** — Reverse-engineered an undocumented 
+  cart/order system with complex multi-currency and reward logic. 
+  Migrated from `float` to `decimal(24,12)` via v1/v2 parallel execution 
+  with field-level diff validation. Zero accounting disputes, 100% traffic 
+  cut over, legacy safely retired.
+  
+- **AI-native team workflow** — Defined CI validation gates + multi-agent 
+  orchestration patterns (Claude Code / Codex CLI / Gemini CLI) to reduce 
+  individual task cycles from 15–30 min to under 5 min.
+  
+- **Solo full-stack delivery** — Shipped a production-grade NestJS backend, 
+  iOS + Android native apps, and 41-language i18n in 2.5 months 
+  (Connectors, currently in App Store review).
