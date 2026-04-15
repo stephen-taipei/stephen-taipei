@@ -23,7 +23,7 @@
 
 | Project | Stack | Status |
 |---|---|---|
-| **[Connectors (脈客)](https://ctrs.app)** — AI-powered personal CRM | React 18 · NestJS · tRPC · SwiftUI · Kotlin Compose · PostgreSQL · Nx | 🟡 Pre-launch |
+| **[Connectors (脈客)](https://ctrs.app)** — AI-powered personal CRM | React 18 · NestJS · tRPC · SwiftUI · Kotlin Compose | 🟢 In App Store review |
 | **StocX** — Taiwan stock analysis platform | React · NestJS · PostgreSQL · ECharts | 🟡 In development |
 
 ---
@@ -62,8 +62,8 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=stephen-taipei&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stephen-taipei&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&langs_count=8"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=stephen-taipei&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&cache_seconds=1800"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stephen-taipei&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&langs_count=8&cache_seconds=1800"/>
 </p>
 
 <p align="center">
