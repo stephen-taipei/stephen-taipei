@@ -23,7 +23,7 @@
 
 | Project | Stack | Status |
 |---|---|---|
-| **[Connectors (脈客)](https://ctrs.app)** — AI-powered personal CRM | React 18 · NestJS · tRPC · SwiftUI · Kotlin Compose | 🟢 In App Store review |
+| **[Connectors (脈客)](https://ctrs.app)** — AI-powered personal CRM | React 18 · NestJS · tRPC · SwiftUI · Kotlin Compose | 🟢 [Live on App Store](https://apps.apple.com/tw/app/%E8%84%88%E5%AE%A2-connectors-ai-crm/id6758259873) |
 | **StocX** — Taiwan stock analysis platform | React · NestJS · PostgreSQL · ECharts | 🟡 In development |
 
 ---
