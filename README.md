@@ -1,100 +1,46 @@
-<!-- Hero Banner -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,100:3b82f6&height=200&section=header&text=Stephen&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Engineer%20%E2%80%A2%20System%20Architect%20%E2%80%A2%20Founder&descAlignY=60&descSize=16" />
-</p>
+# Stephen Chuang
 
-<!-- Typing tagline -->
-<p align="center">
-  <a href="https://stephen.taipei">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3500&pause=800&color=3B82F6&center=true&vCenter=true&width=600&lines=15%2B+years+building+production+systems;Angular+%E2%80%A2+NestJS+%E2%80%A2+Laravel+%E2%80%A2+Nx+Monorepo;Building+Connectors+%E2%80%94+AI-powered+personal+CRM;Building+StocX+%E2%80%94+Taiwan+stock+analysis+tool" />
-  </a>
-</p>
+### Frontend Team Lead · Senior Frontend Engineer
 
-<!-- Social -->
-<p align="center">
-  <a href="https://stephen.taipei"><img src="https://img.shields.io/badge/Website-stephen.taipei-3B82F6?style=flat-square&logo=safari&logoColor=white"/></a>
-  <img src="https://img.shields.io/badge/Location-Taiwan-DC2626?style=flat-square&logo=googlemaps&logoColor=white"/>
-  <img src="https://komarev.com/ghpvc/?username=stephen-taipei&style=flat-square&color=3B82F6&label=Profile+Views"/>
-</p>
+Angular · Nx Monorepo · Web Performance · AI-assisted Engineering Workflows
 
----
+13+ years in software development with a full-stack background.
 
-### 🚀 Currently Building
+I lead architecture, delivery, performance, and code quality for large Angular applications, with iOS and Android product release experience.
 
-| Project | Stack | Status |
-|---|---|---|
-| **[Connectors (脈客)](https://ctrs.app)** — AI-powered personal CRM | React 18 · NestJS · tRPC · SwiftUI · Kotlin Compose | 🟢 [Live on App Store](https://apps.apple.com/tw/app/%E8%84%88%E5%AE%A2-connectors-ai-crm/id6758259873) |
-| **StocX** — Taiwan stock analysis platform | React · NestJS · PostgreSQL · ECharts | 🟡 In development |
+## Selected Impact
 
----
+- **Angular & Nx architecture** — Led the architecture of a large Nx Monorepo supporting 100+ themes and multiple layouts with dynamic switching. Converted 136 theme CSS files to on-demand loading, reducing per-load asset downloads from approximately 2.4 MB to 17 KB — about 99%.
+- **Performance & discoverability** — Improved measured Lighthouse Performance scores on key project pages from 50+ to 90+, while also improving Accessibility, Best Practices, SEO, and AEO for generative-search experiences.
+- **Engineering leadership** — Led a 6-person cross-functional team and handled technical interviews, architecture planning, Code Review, work allocation, and delivery schedules.
+- **Product growth** — Helped a client grow its product from 0 to 20,000 members within one year.
 
-### 🛠 Tech Stack
+## Engineering Leadership & AI Workflow
 
-**Frontend**  
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+- Lead Angular and Nx architecture, component modularization, performance governance, Code Review, and technical decision-making for large frontend systems.
+- Build reusable shared-component patterns that reduce duplication across themes and layouts and improve maintainability.
+- Designed LLM Agent-assisted development and Code Review workflows with validation gates, automating repetitive engineering tasks while keeping final engineering review and accountability with people.
+- Maintain [stephen-skills](https://github.com/stephen-taipei/stephen-skills), a public collection of reusable skills, hooks, and commands for AI-assisted engineering workflows.
 
-**Backend & API**  
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![Laravel Octane](https://img.shields.io/badge/Laravel%20Octane-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![tRPC](https://img.shields.io/badge/tRPC-2596BE?style=flat-square&logo=trpc&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+## Selected Product Delivery
 
-**Data & Infrastructure**  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Nx](https://img.shields.io/badge/Nx%20Monorepo-143055?style=flat-square&logo=nx&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+### [Connectors (脈客)](https://ctrs.app)
 
-**AI Workflow**  
-![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-4285F4?style=flat-square&logo=googlegemini&logoColor=white)
-![Codex CLI](https://img.shields.io/badge/Codex%20CLI-412991?style=flat-square&logo=openai&logoColor=white)
-![GitHub Copilot](https://img.shields.io/badge/Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white)
+An AI-powered personal CRM available on the [App Store](https://apps.apple.com/tw/app/%E8%84%88%E5%AE%A2-connectors-ai-crm/id6758259873).
 
----
+- **Role:** Product direction, architecture, AI-assisted delivery orchestration, Code Review, QA, and iOS/Android release delivery.
+- **AI-assisted implementation context:** React, NestJS, tRPC, SwiftUI, and Kotlin Compose.
 
-### 📊 GitHub Stats
+## Core Expertise
 
-<p align="center">
-  <img height="170" src="https://raw.githubusercontent.com/stephen-taipei/stephen-taipei/main/profile-summary-card-output/tokyonight/3-stats.svg"/>
-  <img height="170" src="https://raw.githubusercontent.com/stephen-taipei/stephen-taipei/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg"/>
-</p>
+- **Hands-on:** Angular, TypeScript, Nx, HTML/CSS, Component Architecture, Web Performance, Accessibility, SEO/AEO
+- **Full-stack background:** Laravel, PHP, MySQL, Redis, Linux
+- **Leadership & delivery:** Architecture, Code Review, Technical Interviews, Planning, iOS/Android Release
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=stephen-taipei&theme=tokyonight&hide_border=true&background=0D1117&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6"/>
-</p>
+## Open to Opportunities
 
-<!-- Snake animation (需要 GitHub Actions,見下方說明) -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/stephen-taipei/stephen-taipei/output/github-contribution-grid-snake-dark.svg"/>
-</p>
+Frontend Team Lead · Senior Frontend Engineer
 
----
+Taiwan · Hybrid · Remote
 
-<p align="center">
-  <i>Open to CTO roles · Technical advisory · Senior engineering leadership</i>
-</p>
-
----
-
-### 💡 Recent Work Highlights
-
-- **Zero-downtime legacy refactor** — Reverse-engineered an undocumented 
-  cart/order system with complex multi-currency and reward logic. 
-  Migrated from `float` to `decimal(24,12)` via v1/v2 parallel execution 
-  with field-level diff validation. Zero accounting disputes, 100% traffic 
-  cut over, legacy safely retired.
-  
-- **AI-native team workflow** — Defined CI validation gates + multi-agent 
-  orchestration patterns (Claude Code / Codex CLI / Gemini CLI) to reduce 
-  individual task cycles from 15–30 min to under 5 min.
-  
-- **Solo full-stack delivery** — Shipped a production-grade NestJS backend, 
-  iOS + Android native apps, and 41-language i18n in 2.5 months 
-  (Connectors, currently in App Store review).
+[Website](https://stephen.taipei) · [Connectors](https://ctrs.app) · [App Store](https://apps.apple.com/tw/app/%E8%84%88%E5%AE%A2-connectors-ai-crm/id6758259873)
