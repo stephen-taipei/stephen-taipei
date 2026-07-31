@@ -20,7 +20,7 @@ I lead architecture, delivery, performance, and code quality for large Angular a
 - Lead Angular and Nx architecture, component modularization, performance governance, Code Review, and technical decision-making for large frontend systems.
 - Build reusable shared-component patterns that reduce duplication across themes and layouts and improve maintainability.
 - Designed LLM Agent-assisted development and Code Review workflows with validation gates, automating repetitive engineering tasks while keeping final engineering review and accountability with people.
-- Maintain [stephen-skills](https://github.com/stephen-taipei/stephen-skills), a public collection of reusable skills, hooks, and commands for AI-assisted engineering workflows.
+- Build and maintain [better-workflows](https://github.com/stephen-taipei/better-workflows), my primary native-first, evidence-driven workflow orchestration system for Codex.
 
 ## Selected Product Delivery
 
