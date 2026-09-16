@@ -58,6 +58,8 @@ Selected production architecture work from my frontend engineering background:
 - Reduced a theme CSS request from approximately **2.4 MB to 17 KB** (~99%) and improved measured Lighthouse Performance from **50+ to 90+**.
 - Led a 6-person cross-functional engineering team.
 
+Scope, baseline, and what is explicitly [not claimed](https://github.com/stephen-taipei/frontend-engineering-case-studies/blob/main/docs/evidence-boundaries.md) for each result.
+
 ## Core Expertise
 
 - **Agentic systems:** AI coding agents, multi-agent workflows, agent orchestration, tool-driven execution

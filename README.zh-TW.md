@@ -58,6 +58,8 @@ Prompt 能描述意圖，但它無法證明授權、當下狀態，或執行確�
 - 將單次主題 CSS 請求由約 **2.4 MB 降至 17 KB**（約 99%），並將實測 Lighthouse Performance 由 **50+ 提升至 90+**。
 - 帶領 6 人跨職能工程團隊。
 
+每項成果的 scope、baseline 與明確[不宣稱的範圍](https://github.com/stephen-taipei/frontend-engineering-case-studies/blob/main/docs/evidence-boundaries.zh-TW.md)。
+
 ## 核心專長
 
 - **Agentic systems：** AI coding agents、多 Agent 工作流程、Agent orchestration、tool-driven execution
