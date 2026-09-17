@@ -2,11 +2,13 @@
 
 [English →](./README.md)
 
-### Agentic Systems Engineer · AI Agent Reliability
+### AI-Native Systems Builder · Agentic Systems Engineer
 
-正在打造 **Better Workflows**：一套給 AI 工程 Agent 使用的 evidence-first QA 與交付控制層。
+我把模糊的問題轉成具體的系統、工作流程與 production 成果。
 
-我的工作落在機率性 AI Agent 與確定性軟體交付的交界。
+正在打造 **Better Workflows**：一套給 AI 工程 Agent 使用的 evidence-first 可靠性與交付控制層。
+
+我目前的重心是機率性 AI Agent 與確定性軟體交付的交界。
 
 > AI 能提出方案、也能推理。但 production 系統依然需要證據、授權、驗證，以及確實執行完成的證明。
 
@@ -16,7 +18,7 @@
 
 ### 1. Better Workflows
 
-**Evidence-first AI engineering QA + delivery gatekeeper**
+**Evidence-first AI engineering reliability + delivery gatekeeper**
 
 [betterworkflows.dev](https://betterworkflows.dev) · [原始碼](https://github.com/stephen-taipei/better-workflows) *(V5 改版期間暫時設為 private，正式發布後公開)*
 
@@ -62,6 +64,7 @@ Prompt 能描述意圖，但它無法證明授權、當下狀態，或執行確�
 
 ## 核心專長
 
+- **系統建構：** 把模糊的問題轉成明確的模型、邊界、工作流程與可執行的系統
 - **Agentic systems：** AI coding agents、多 Agent 工作流程、Agent orchestration、tool-driven execution
 - **Agent reliability：** evidence-bound validation、stale-state detection、reconciliation、fail-closed execution
 - **工程治理：** Policy as Code、確定性驗證、具邊界的自動化、安全交付

@@ -2,11 +2,13 @@
 
 [繁體中文 →](./README.zh-TW.md)
 
-### Agentic Systems Engineer · AI Agent Reliability
+### AI-Native Systems Builder · Agentic Systems Engineer
 
-Building **Better Workflows**, an evidence-first QA and delivery control layer for AI engineering agents.
+I turn ambiguous problems into concrete systems, workflows, and production outcomes.
 
-I work on the boundary between probabilistic AI agents and deterministic software delivery.
+Building **Better Workflows**, an evidence-first reliability and delivery control layer for AI engineering agents.
+
+My current focus is the boundary between probabilistic AI agents and deterministic software delivery.
 
 > AI can propose and reason. Production systems still need evidence, authority, validation, and proof of outcome.
 
@@ -16,7 +18,7 @@ I work on the boundary between probabilistic AI agents and deterministic softwar
 
 ### 1. Better Workflows
 
-**Evidence-first AI engineering QA + delivery gatekeeper**
+**Evidence-first AI engineering reliability + delivery gatekeeper**
 
 [betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) *(private during the V5 rewrite — opening at public release)*
 
@@ -62,6 +64,7 @@ Scope, baseline, and what is explicitly [not claimed](https://github.com/stephen
 
 ## Core Expertise
 
+- **Systems building:** turning ambiguous problems into explicit models, boundaries, workflows, and executable systems
 - **Agentic systems:** AI coding agents, multi-agent workflows, agent orchestration, tool-driven execution
 - **Agent reliability:** evidence-bound validation, stale-state detection, reconciliation, fail-closed execution
 - **Engineering governance:** policy as code, deterministic validation, bounded automation, safe delivery
