@@ -1,6 +1,6 @@
 # Stephen Chuang
 
-[繁體中文 →](./README.zh-TW.md)
+[English](./README.md) · [繁體中文](./README.zh-TW.md) · [简体中文](./README.zh-CN.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [ไทย](./README.th.md)
 
 ### AI-Native Systems Builder · Agentic Systems Engineer
 
@@ -20,7 +20,7 @@ My current focus is the boundary between probabilistic AI agents and determinist
 
 **Evidence-first AI engineering reliability + delivery gatekeeper**
 
-[betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) *(private during the V5 rewrite — opening at public release)*
+[betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) *(private during the V5 rewrite, opening at public release)*
 
 Better Workflows governs how AI coding agents move from intent to real repository changes. It separates agent judgment from deterministic validation, binds evidence to the current repository, revision, scope and target, and stops when evidence becomes stale or an external action has an unknown outcome.
 
@@ -50,7 +50,7 @@ Current areas of work:
 
 ## Engineering Track Record
 
-Thirteen years of production engineering is why the reliability work above is grounded in real delivery systems rather than demos: AI agents in my workflows touch Git, CI, deployment, databases, and real repositories.
+Thirteen years of production engineering is why the reliability work above is grounded in real delivery systems rather than demos. AI agents in my workflows touch Git, CI, deployment, databases, and real repositories.
 
 ### [Frontend Engineering Case Studies](https://github.com/stephen-taipei/frontend-engineering-case-studies)
 
