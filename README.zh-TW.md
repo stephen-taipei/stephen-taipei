@@ -1,81 +1,81 @@
 # Stephen Chuang
 
-[English →](./README.md)
+[English](./README.md) · [繁體中文](./README.zh-TW.md) · [简体中文](./README.zh-CN.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [ไทย](./README.th.md)
 
 ### AI-Native Systems Builder · Agentic Systems Engineer
 
-我把模糊的問題轉成具體的系統、工作流程與 production 成果。
+我擅長把模糊問題轉化成具體系統、工作流與可落地的 production outcome。
 
-正在打造 **Better Workflows**：一套給 AI 工程 Agent 使用的 evidence-first 可靠性與交付控制層。
+目前正在打造 **Better Workflows**，一個以 evidence-first 為核心的 AI engineering reliability 與 delivery control layer。
 
-我目前的重心是機率性 AI Agent 與確定性軟體交付的交界。
+我目前專注於 probabilistic AI agents 與 deterministic software delivery 之間的邊界。
 
-> AI 能提出方案、也能推理。但 production 系統依然需要證據、授權、驗證，以及確實執行完成的證明。
+> AI 可以提出方案與推理。Production system 仍然需要 evidence、authority、validation 與 outcome proof。
 
-13 年以上軟體工程經驗，橫跨架構、全端系統、CI/CD、production 交付、工程領導，以及 AI-native 開發。
+具 13+ 年 software engineering 經驗，涵蓋 architecture、full-stack systems、CI/CD、production delivery、engineering leadership 與 AI-native development。
 
-## 正在打造
+## 目前正在打造
 
 ### 1. Better Workflows
 
 **Evidence-first AI engineering reliability + delivery gatekeeper**
 
-[betterworkflows.dev](https://betterworkflows.dev) · [原始碼](https://github.com/stephen-taipei/better-workflows) *(V5 改版期間暫時設為 private，正式發布後公開)*
+[betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) *(V5 rewrite 期間暫時 private，公開 release 時開放)*
 
-Better Workflows 治理 AI coding agents 從意圖走到真實 repository 變更的整段路徑。它把 Agent 判斷與 deterministic validation 分開，將證據綁定到當下的 repository、revision、scope 與 target；一旦證據過期，或外部動作結果不明，工作流程就會停下來，而不是假裝任務已完成。
+Better Workflows 管控 AI coding agents 如何從 intent 走到真實 repository 變更。它將 agent judgment 與 deterministic validation 分離，並把 evidence 綁定到目前 repository、revision、scope 與 target。當 evidence stale 或 external action outcome 不確定時，流程會停止。
 
-Prompt 能描述意圖，但它無法證明授權、當下狀態，或執行確實成功。Better Workflows 把這些落差轉為明確、可重複驗證的控制點。
+Prompt 可以描述 intent，但無法證明 authority、current state 或 successful execution。Better Workflows 將這些缺口轉成明確且可驗證的 control points。
 
 **Goal-first · Evidence-driven · Fail-closed · Risk-adaptive**
 
-目前的工作範圍：
+目前主要方向：
 
-- Agent authority 與 scope 邊界
-- 證據的 freshness 與 provenance
+- Agent authority 與 scope boundaries
+- Evidence freshness 與 provenance
 - Deterministic validation
-- Risk-adaptive 工作流程路由
+- Risk-adaptive workflow routing
 - Provider reconciliation
-- 具安全邊界的 Git mutation 與 task-isolated 整合
-- 多 Agent 工程工作流程
-- 自主化交付的可靠性
+- Safe Git mutation 與 task-isolated integration
+- Multi-agent engineering workflows
+- Autonomous delivery reliability
 
-### 2. Connectors（脈客）
+### 2. Connectors 脈客
 
-**AI 個人 CRM，已實際上線**
+**AI-powered personal CRM，已上線 production**
 
 [ctrs.app](https://ctrs.app) · [App Store](https://apps.apple.com/tw/app/%E8%84%88%E5%AE%A2-connectors-ai-crm/id6758259873)
 
-- **負責範圍：** 產品方向、架構、AI 輔助交付編排、Code Review、QA，以及 iOS／Android 發布。
-- **AI 輔助實作技術背景：** React、NestJS、tRPC、SwiftUI、Kotlin Compose。
+- **角色：** Product direction、architecture、AI-assisted delivery orchestration、Code Review、QA，以及 iOS/Android release delivery
+- **AI-assisted implementation context：** React、NestJS、tRPC、SwiftUI、Kotlin Compose
 
-## 工程實績
+## Engineering Track Record
 
-十三年 production 工程經驗，正是上述可靠性工作能立基於真實交付系統而非 demo 的原因：在我的工作流程中，AI Agent 實際會動到 Git、CI、deployment、資料庫與真實 repository。
+13 年 production engineering 經驗，讓上述 reliability work 建立在真實交付系統，而非單純 Demo。我的 AI agent workflow 會實際操作 Git、CI、deployment、database 與真實 repositories。
 
-### [前端工程案例](https://github.com/stephen-taipei/frontend-engineering-case-studies)
+### [Frontend Engineering Case Studies](https://github.com/stephen-taipei/frontend-engineering-case-studies)
 
-前端工程背景中具代表性的 production 架構工作：
+前端工程背景中的部分 production architecture 成果：
 
-- 設計並主導支援 100+ 主題的 Angular／Nx 架構，將一個具代表性的 production 主題 leaf 精簡至 **23 行**。
-- 將單次主題 CSS 請求由約 **2.4 MB 降至 17 KB**（約 99%），並將實測 Lighthouse Performance 由 **50+ 提升至 90+**。
-- 帶領 6 人跨職能工程團隊。
+- 設計並主導 Angular/Nx architecture，支援 100+ themes，將具代表性的 production theme leaf 降至 **23 行**
+- 將單一 theme CSS request 約從 **2.4 MB 降至 17 KB**，約 99%，並將實測 Lighthouse Performance 由 **50+ 提升至 90+**
+- 帶領 6 人 cross-functional engineering team
 
-每項成果的 scope、baseline 與明確[不宣稱的範圍](https://github.com/stephen-taipei/frontend-engineering-case-studies/blob/main/docs/evidence-boundaries.zh-TW.md)。
+各成果的 scope、baseline 與明確 [未宣稱事項](https://github.com/stephen-taipei/frontend-engineering-case-studies/blob/main/docs/evidence-boundaries.md) 已獨立列出。
 
-## 核心專長
+## Core Expertise
 
-- **系統建構：** 把模糊的問題轉成明確的模型、邊界、工作流程與可執行的系統
-- **Agentic systems：** AI coding agents、多 Agent 工作流程、Agent orchestration、tool-driven execution
+- **Systems building：** 將模糊問題轉成 explicit models、boundaries、workflows 與 executable systems
+- **Agentic systems：** AI coding agents、multi-agent workflows、agent orchestration、tool-driven execution
 - **Agent reliability：** evidence-bound validation、stale-state detection、reconciliation、fail-closed execution
-- **工程治理：** Policy as Code、確定性驗證、具邊界的自動化、安全交付
-- **軟體架構：** 系統邊界、明確職責歸屬、行為保持重構
-- **Production 工程：** Git、CI/CD、Linux、部署、可觀測性、資料庫
-- **工程基礎：** Node.js、NestJS、Angular、TypeScript、Nx、Laravel、PostgreSQL、MySQL、Redis
+- **Engineering governance：** policy as code、deterministic validation、bounded automation、safe delivery
+- **Software architecture：** system boundaries、explicit ownership、behavior-preserving refactoring
+- **Production engineering：** Git、CI/CD、Linux、deployment、observability、databases
+- **Engineering foundation：** Node.js、NestJS、Angular、TypeScript、Nx、Laravel、PostgreSQL、MySQL、Redis
 
-## 聯絡
+## Connect
 
-關於 agentic systems、AI agent reliability、developer infrastructure 與 OSS 協作的選擇性洽談，歡迎來信。
+歡迎針對 agentic systems、AI agent reliability、developer infrastructure 與 OSS collaboration 進行交流。
 
-台灣 · Remote
+Taiwan · Remote
 
-[個人網站](https://stephen.taipei) · [Better Workflows](https://betterworkflows.dev) · [Connectors](https://ctrs.app) · [前端工程案例](https://github.com/stephen-taipei/frontend-engineering-case-studies)
+[Website](https://stephen.taipei) · [Better Workflows](https://betterworkflows.dev) · [Connectors](https://ctrs.app) · [Case Studies](https://github.com/stephen-taipei/frontend-engineering-case-studies)
