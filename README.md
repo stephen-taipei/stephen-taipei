@@ -20,7 +20,16 @@ My current focus is the boundary between probabilistic AI agents and determinist
 
 **Evidence-first AI engineering reliability + delivery gatekeeper**
 
-[betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) *(private during the V5 rewrite, opening at public release)*
+[betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) · [Release](https://github.com/stephen-taipei/better-workflows/releases/tag/V5.0.rc1)
+
+V5.0 RC1 (`5.0.0-rc.1`, tag `V5.0.rc1`) is publicly available and free to install. The AGPL-3.0-only core provides one Auto entrypoint for risk-adaptive checks, evidence-bound review, and safe delivery. RC1 covers Codex, Gemini CLI, and Qwen Code on macOS × Node 22/24; Claude Code, Linux, and Windows qualification is deferred to V5.1. GA remains pending its canary acceptance criteria.
+
+Install in Codex, then open a new task and use `$better-workflows:auto <goal>`:
+
+```bash
+codex plugin marketplace add stephen-taipei/better-workflows
+codex plugin add better-workflows@better-workflows
+```
 
 Better Workflows governs how AI coding agents move from intent to real repository changes. It separates agent judgment from deterministic validation, binds evidence to the current repository, revision, scope and target, and stops when evidence becomes stale or an external action has an unknown outcome.
 
