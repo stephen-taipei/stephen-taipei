@@ -20,7 +20,16 @@ Software engineering の経験は 13+ 年で、architecture、full-stack systems
 
 **Evidence-first AI engineering reliability + delivery gatekeeper**
 
-[betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) *(V5 rewrite 中は private、public release 時に公開予定)*
+[betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) · [リリース](https://github.com/stephen-taipei/better-workflows/releases/tag/V5.0.rc1)
+
+V5.0 RC1（`5.0.0-rc.1`、tag `V5.0.rc1`）を公開しました。無料でインストールでき、コアは AGPL-3.0-only です。単一の Auto エントリーポイントで、リスクに応じた検証、証拠に基づくレビュー、安全なデリバリーを提供します。RC1 の対象は macOS × Node 22/24 上の Codex、Gemini CLI、Qwen Code です。Claude Code、Linux、Windows の検証は V5.1 に持ち越され、GA は canary の受け入れ条件を満たすまで保留です。
+
+Codex にインストールし、新しいタスクで `$better-workflows:auto <goal>` を使用してください：
+
+```bash
+codex plugin marketplace add stephen-taipei/better-workflows
+codex plugin add better-workflows@better-workflows
+```
 
 Better Workflows は AI coding agents が intent から実際の repository change へ進む過程を管理します。Agent judgment と deterministic validation を分離し、evidence を現在の repository、revision、scope、target に結び付けます。Evidence が stale になった場合や external action outcome が不明な場合は停止します。
 

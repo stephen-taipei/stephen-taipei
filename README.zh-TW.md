@@ -20,7 +20,16 @@
 
 **Evidence-first AI engineering reliability + delivery gatekeeper**
 
-[betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) *(V5 rewrite 期間暫時 private，公開 release 時開放)*
+[betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) · [發布版本](https://github.com/stephen-taipei/better-workflows/releases/tag/V5.0.rc1)
+
+V5.0 RC1（`5.0.0-rc.1`，tag `V5.0.rc1`）已公開上架，可免費安裝。第一方核心採 AGPL-3.0-only，以單一 Auto 入口提供依風險選擇的檢查、證據審查與安全交付。RC1 涵蓋 macOS × Node 22/24 上的 Codex、Gemini CLI 與 Qwen Code；Claude Code、Linux 與 Windows 的驗收延至 V5.1。GA 仍待完成 canary 驗收條件。
+
+在 Codex 安裝後，開啟新任務並使用 `$better-workflows:auto <goal>`：
+
+```bash
+codex plugin marketplace add stephen-taipei/better-workflows
+codex plugin add better-workflows@better-workflows
+```
 
 Better Workflows 管控 AI coding agents 如何從 intent 走到真實 repository 變更。它將 agent judgment 與 deterministic validation 分離，並把 evidence 綁定到目前 repository、revision、scope 與 target。當 evidence stale 或 external action outcome 不確定時，流程會停止。
 
