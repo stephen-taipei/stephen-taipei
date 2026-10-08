@@ -2,7 +2,7 @@
 
 [English](./README.md) · [繁體中文](./README.zh-TW.md) · [简体中文](./README.zh-CN.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [ไทย](./README.th.md)
 
-### AI-Native Systems Builder · Agentic Systems Engineer
+### Agentic Infrastructure Engineer · AI-Native Systems Builder
 
 I turn ambiguous problems into concrete systems, workflows, and production outcomes.
 
@@ -20,7 +20,7 @@ My current focus is the boundary between probabilistic AI agents and determinist
 
 These tools govern AI coding agents from intent to real repo changes through evidence, authority, and validation.
 
-1. **Better Workflows**
+1. **[Better Workflows](https://betterworkflows.dev)** (flagship)
 
    **Evidence-first AI engineering reliability + delivery gatekeeper**
 
@@ -39,7 +39,7 @@ These tools govern AI coding agents from intent to real repo changes through evi
 
 3. **[Stephen Skills](https://github.com/stephen-taipei/stephen-skills)**: Reusable Agent Skills; one `SKILL.md` source, native installation in Claude Code/Codex CLI.
 
-### Production Product
+### Shipped Product
 
 **Connectors (脈客) · Private repository**
 
