@@ -16,39 +16,32 @@ My current focus is the boundary between probabilistic AI agents and determinist
 
 ## What I'm Building
 
-### 1. Better Workflows
+### Agentic Infrastructure
 
-**Evidence-first AI engineering reliability + delivery gatekeeper**
+These tools govern AI coding agents from intent to real repo changes through evidence, authority, and validation.
 
-[betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) · [Release](https://github.com/stephen-taipei/better-workflows/releases/tag/V5.0.rc1)
+1. **Better Workflows**
 
-V5.0 RC1 (`5.0.0-rc.1`, tag `V5.0.rc1`) is publicly available and free to install. The AGPL-3.0-only core provides one Auto entrypoint for risk-adaptive checks, evidence-bound review, and safe delivery. RC1 covers Codex, Gemini CLI, and Qwen Code on macOS × Node 22/24; Claude Code, Linux, and Windows qualification is deferred to V5.1. GA remains pending its canary acceptance criteria.
+   **Evidence-first AI engineering reliability + delivery gatekeeper**
 
-Install in Codex, then open a new task and use `$better-workflows:auto <goal>`:
+   [betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) · [Release](https://github.com/stephen-taipei/better-workflows/releases/tag/V5.0.rc1)
 
-```bash
-codex plugin marketplace add stephen-taipei/better-workflows
-codex plugin add better-workflows@better-workflows
-```
+   V5.0 RC1 — free to install (AGPL-3.0-only). Supports Codex, Gemini CLI, Qwen Code; Claude Code planned for V5.1.
 
-Better Workflows governs how AI coding agents move from intent to real repository changes. It separates agent judgment from deterministic validation, binds evidence to the current repository, revision, scope and target, and stops when evidence becomes stale or an external action has an unknown outcome.
+   ```bash
+   codex plugin marketplace add stephen-taipei/better-workflows
+   codex plugin add better-workflows@better-workflows
+   ```
 
-A prompt can describe intent. It does not prove authority, current state, or successful execution. Better Workflows turns those gaps into explicit, verifiable control points.
+   **Goal-first · Evidence-driven · Fail-closed · Risk-adaptive**
 
-**Goal-first · Evidence-driven · Fail-closed · Risk-adaptive**
+2. **[Deckhand](https://github.com/stephen-taipei/deckhand)**: Multi-AI toolbar for Claude Code: usage gauges, model switching, parallel sub agents, read-only second opinions from Codex/Cursor/agy.
 
-Current areas of work:
+3. **[Stephen Skills](https://github.com/stephen-taipei/stephen-skills)**: Reusable Agent Skills; one `SKILL.md` source, native installation in Claude Code/Codex CLI.
 
-- Agent authority and scope boundaries
-- Evidence freshness and provenance
-- Deterministic validation
-- Risk-adaptive workflow routing
-- Provider reconciliation
-- Safe Git mutation and task-isolated integration
-- Multi-agent engineering workflows
-- Autonomous delivery reliability
+### Production Product
 
-### 2. Connectors (脈客)
+**Connectors (脈客) · Private repository**
 
 **AI-powered personal CRM, shipped to production**
 

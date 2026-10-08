@@ -16,39 +16,32 @@
 
 ## 当前项目
 
-### 1. Better Workflows
+### Agentic Infrastructure
 
-**Evidence-first AI engineering reliability + delivery gatekeeper**
+这组工具以 evidence、authority、validation 为核心，管控 AI coding agents 从意图到真实 repo 变更的过程。
 
-[betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) · [发布版本](https://github.com/stephen-taipei/better-workflows/releases/tag/V5.0.rc1)
+1. **Better Workflows**
 
-V5.0 RC1（`5.0.0-rc.1`，tag `V5.0.rc1`）已公开上架，可免费安装。核心采用 AGPL-3.0-only，通过单一 Auto 入口提供按风险选择的检查、证据审查与安全交付。RC1 涵盖 macOS × Node 22/24 上的 Codex、Gemini CLI 和 Qwen Code；Claude Code、Linux 和 Windows 的验证推迟至 V5.1。GA 仍需完成 canary 验收条件。
+   **Evidence-first AI engineering reliability + delivery gatekeeper**
 
-在 Codex 安装后，打开新任务并使用 `$better-workflows:auto <goal>`：
+   [betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) · [发布版本](https://github.com/stephen-taipei/better-workflows/releases/tag/V5.0.rc1)
 
-```bash
-codex plugin marketplace add stephen-taipei/better-workflows
-codex plugin add better-workflows@better-workflows
-```
+   V5.0 RC1 — 可免费安装（AGPL-3.0-only）。支持 Codex、Gemini CLI、Qwen Code；Claude Code 计划于 V5.1。
 
-Better Workflows 管控 AI coding agents 如何从 intent 走到真实 repository 变更。它将 agent judgment 与 deterministic validation 分离，并把 evidence 绑定到当前 repository、revision、scope 与 target。当 evidence stale 或 external action outcome 不确定时，流程会停止。
+   ```bash
+   codex plugin marketplace add stephen-taipei/better-workflows
+   codex plugin add better-workflows@better-workflows
+   ```
 
-Prompt 可以描述 intent，但无法证明 authority、current state 或 successful execution。Better Workflows 将这些缺口转成明确且可验证的 control points。
+   **Goal-first · Evidence-driven · Fail-closed · Risk-adaptive**
 
-**Goal-first · Evidence-driven · Fail-closed · Risk-adaptive**
+2. **[Deckhand](https://github.com/stephen-taipei/deckhand)**: Claude Code 的多 AI 工具栏，提供 usage gauges、模型切换、parallel sub agents，以及来自 Codex／Cursor／agy 的只读 second opinion。
 
-当前主要方向：
+3. **[Stephen Skills](https://github.com/stephen-taipei/stephen-skills)**: 可复用的 Agent Skills；以同一份 `SKILL.md` 为来源，Claude Code 和 Codex CLI 都能原生安装。
 
-- Agent authority 与 scope boundaries
-- Evidence freshness 与 provenance
-- Deterministic validation
-- Risk-adaptive workflow routing
-- Provider reconciliation
-- Safe Git mutation 与 task-isolated integration
-- Multi-agent engineering workflows
-- Autonomous delivery reliability
+### Production Product
 
-### 2. Connectors 脉客
+**Connectors (脈客) · Private repository**
 
 **AI-powered personal CRM，已上线 production**
 

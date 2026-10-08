@@ -16,39 +16,32 @@
 
 ## What I'm Building
 
-### 1. Better Workflows
+### Agentic Infrastructure
 
-**Evidence-first AI engineering reliability + delivery gatekeeper**
+เครื่องมือกลุ่มนี้ควบคุม AI coding agents ตั้งแต่เจตนาไปจนถึงการเปลี่ยนแปลงจริงใน repo โดยมี evidence, authority และ validation เป็นแกนหลัก
 
-[betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) · [รุ่นที่เผยแพร่](https://github.com/stephen-taipei/better-workflows/releases/tag/V5.0.rc1)
+1. **Better Workflows**
 
-V5.0 RC1 (`5.0.0-rc.1`, tag `V5.0.rc1`) เผยแพร่สู่สาธารณะแล้วและติดตั้งได้ฟรี คอร์ใช้ AGPL-3.0-only โดยมีจุดเข้า Auto เดียวสำหรับการตรวจสอบตามความเสี่ยง การรีวิวตามหลักฐาน และการส่งมอบอย่างปลอดภัย RC1 ครอบคลุม Codex, Gemini CLI และ Qwen Code บน macOS × Node 22/24 ส่วนการรับรอง Claude Code, Linux และ Windows เลื่อนไป V5.1 และ GA ยังต้องผ่านเกณฑ์ canary ก่อน
+   **Evidence-first AI engineering reliability + delivery gatekeeper**
 
-ติดตั้งใน Codex แล้วเปิดงานใหม่และใช้ `$better-workflows:auto <goal>`:
+   [betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) · [รุ่นที่เผยแพร่](https://github.com/stephen-taipei/better-workflows/releases/tag/V5.0.rc1)
 
-```bash
-codex plugin marketplace add stephen-taipei/better-workflows
-codex plugin add better-workflows@better-workflows
-```
+   V5.0 RC1 — ติดตั้งฟรี (AGPL-3.0-only) รองรับ Codex, Gemini CLI และ Qwen Code; วางแผนรองรับ Claude Code ใน V5.1
 
-Better Workflows ควบคุมวิธีที่ AI coding agents เคลื่อนจาก intent ไปสู่การเปลี่ยนแปลงจริงใน repository โดยแยก agent judgment ออกจาก deterministic validation และผูก evidence เข้ากับ repository, revision, scope และ target ปัจจุบัน หาก evidence stale หรือ external action outcome ไม่ชัดเจน workflow จะหยุด
+   ```bash
+   codex plugin marketplace add stephen-taipei/better-workflows
+   codex plugin add better-workflows@better-workflows
+   ```
 
-Prompt อธิบาย intent ได้ แต่ไม่ได้พิสูจน์ authority, current state หรือ successful execution Better Workflows เปลี่ยนช่องว่างเหล่านี้ให้เป็น control points ที่ชัดเจนและตรวจสอบได้
+   **Goal-first · Evidence-driven · Fail-closed · Risk-adaptive**
 
-**Goal-first · Evidence-driven · Fail-closed · Risk-adaptive**
+2. **[Deckhand](https://github.com/stephen-taipei/deckhand)**: แถบเครื่องมือหลาย AI สำหรับ Claude Code พร้อม usage gauges, การสลับโมเดล, parallel sub agents และ second opinion แบบอ่านอย่างเดียวจาก Codex／Cursor／agy
 
-Current areas:
+3. **[Stephen Skills](https://github.com/stephen-taipei/stephen-skills)**: Agent Skills ที่ใช้ซ้ำได้ โดยใช้ `SKILL.md` แหล่งเดียวและติดตั้งแบบ native ได้ทั้งใน Claude Code และ Codex CLI
 
-- Agent authority and scope boundaries
-- Evidence freshness and provenance
-- Deterministic validation
-- Risk-adaptive workflow routing
-- Provider reconciliation
-- Safe Git mutation and task-isolated integration
-- Multi-agent engineering workflows
-- Autonomous delivery reliability
+### Production Product
 
-### 2. Connectors 脈客
+**Connectors (脈客) · Private repository**
 
 **AI-powered personal CRM, shipped to production**
 

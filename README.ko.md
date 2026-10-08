@@ -16,39 +16,32 @@
 
 ## What I'm Building
 
-### 1. Better Workflows
+### Agentic Infrastructure
 
-**Evidence-first AI engineering reliability + delivery gatekeeper**
+이 도구 모음은 evidence, authority, validation을 중심으로 AI coding agents가 의도에서 실제 repo 변경으로 나아가는 과정을 관리합니다.
 
-[betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) · [릴리스](https://github.com/stephen-taipei/better-workflows/releases/tag/V5.0.rc1)
+1. **Better Workflows**
 
-V5.0 RC1 (`5.0.0-rc.1`, tag `V5.0.rc1`)을 공개했으며 무료로 설치할 수 있습니다. 코어는 AGPL-3.0-only이며, 단일 Auto 진입점으로 위험에 따른 검증, 증거 기반 리뷰, 안전한 전달을 제공합니다. RC1은 macOS × Node 22/24의 Codex, Gemini CLI, Qwen Code를 대상으로 합니다. Claude Code, Linux, Windows 검증은 V5.1로 연기되었으며 GA는 canary 승인 조건을 충족해야 합니다.
+   **Evidence-first AI engineering reliability + delivery gatekeeper**
 
-Codex에 설치한 뒤 새 작업을 열고 `$better-workflows:auto <goal>`을 사용하세요:
+   [betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) · [릴리스](https://github.com/stephen-taipei/better-workflows/releases/tag/V5.0.rc1)
 
-```bash
-codex plugin marketplace add stephen-taipei/better-workflows
-codex plugin add better-workflows@better-workflows
-```
+   V5.0 RC1 — 무료 설치 가능(AGPL-3.0-only). Codex, Gemini CLI, Qwen Code 지원; Claude Code는 V5.1에서 지원 예정입니다.
 
-Better Workflows는 AI coding agents가 intent에서 실제 repository change로 이동하는 과정을 관리합니다. Agent judgment와 deterministic validation을 분리하고 evidence를 현재 repository, revision, scope, target에 바인딩합니다. Evidence가 stale이거나 external action outcome이 불명확하면 멈춥니다.
+   ```bash
+   codex plugin marketplace add stephen-taipei/better-workflows
+   codex plugin add better-workflows@better-workflows
+   ```
 
-Prompt는 intent를 설명할 수 있지만 authority, current state, successful execution을 증명하지 못합니다. Better Workflows는 이 간극을 명시적이고 검증 가능한 control points로 바꿉니다.
+   **Goal-first · Evidence-driven · Fail-closed · Risk-adaptive**
 
-**Goal-first · Evidence-driven · Fail-closed · Risk-adaptive**
+2. **[Deckhand](https://github.com/stephen-taipei/deckhand)**: Claude Code용 멀티 AI 도구 모음으로 usage gauges, 모델 전환, parallel sub agents, Codex／Cursor／agy의 읽기 전용 second opinion을 제공합니다.
 
-Current areas:
+3. **[Stephen Skills](https://github.com/stephen-taipei/stephen-skills)**: 재사용 가능한 Agent Skills로, 하나의 `SKILL.md` 소스를 Claude Code와 Codex CLI 모두에 네이티브로 설치할 수 있습니다.
 
-- Agent authority and scope boundaries
-- Evidence freshness and provenance
-- Deterministic validation
-- Risk-adaptive workflow routing
-- Provider reconciliation
-- Safe Git mutation and task-isolated integration
-- Multi-agent engineering workflows
-- Autonomous delivery reliability
+### Production Product
 
-### 2. Connectors 脈客
+**Connectors (脈客) · Private repository**
 
 **AI-powered personal CRM, shipped to production**
 
