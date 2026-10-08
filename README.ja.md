@@ -16,39 +16,32 @@ Software engineering の経験は 13+ 年で、architecture、full-stack systems
 
 ## What I'm Building
 
-### 1. Better Workflows
+### Agentic Infrastructure
 
-**Evidence-first AI engineering reliability + delivery gatekeeper**
+このツール群は evidence、authority、validation を核に、AI coding agents が意図から実際の repo 変更へ進む過程を管理します。
 
-[betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) · [リリース](https://github.com/stephen-taipei/better-workflows/releases/tag/V5.0.rc1)
+1. **Better Workflows**
 
-V5.0 RC1（`5.0.0-rc.1`、tag `V5.0.rc1`）を公開しました。無料でインストールでき、コアは AGPL-3.0-only です。単一の Auto エントリーポイントで、リスクに応じた検証、証拠に基づくレビュー、安全なデリバリーを提供します。RC1 の対象は macOS × Node 22/24 上の Codex、Gemini CLI、Qwen Code です。Claude Code、Linux、Windows の検証は V5.1 に持ち越され、GA は canary の受け入れ条件を満たすまで保留です。
+   **Evidence-first AI engineering reliability + delivery gatekeeper**
 
-Codex にインストールし、新しいタスクで `$better-workflows:auto <goal>` を使用してください：
+   [betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) · [リリース](https://github.com/stephen-taipei/better-workflows/releases/tag/V5.0.rc1)
 
-```bash
-codex plugin marketplace add stephen-taipei/better-workflows
-codex plugin add better-workflows@better-workflows
-```
+   V5.0 RC1 — 無料でインストール可能（AGPL-3.0-only）。Codex、Gemini CLI、Qwen Code に対応。Claude Code は V5.1 で対応予定。
 
-Better Workflows は AI coding agents が intent から実際の repository change へ進む過程を管理します。Agent judgment と deterministic validation を分離し、evidence を現在の repository、revision、scope、target に結び付けます。Evidence が stale になった場合や external action outcome が不明な場合は停止します。
+   ```bash
+   codex plugin marketplace add stephen-taipei/better-workflows
+   codex plugin add better-workflows@better-workflows
+   ```
 
-Prompt は intent を記述できますが、authority、current state、successful execution を証明できません。Better Workflows はその不足を明示的で検証可能な control points に変えます。
+   **Goal-first · Evidence-driven · Fail-closed · Risk-adaptive**
 
-**Goal-first · Evidence-driven · Fail-closed · Risk-adaptive**
+2. **[Deckhand](https://github.com/stephen-taipei/deckhand)**: Claude Code 向けのマルチ AI ツールバーで、usage gauges、モデル切り替え、parallel sub agents、Codex／Cursor／agy からの読み取り専用 second opinion を提供します。
 
-Current areas:
+3. **[Stephen Skills](https://github.com/stephen-taipei/stephen-skills)**: 再利用可能な Agent Skills で、同じ `SKILL.md` をソースとして、Claude Code と Codex CLI の両方にネイティブでインストールできます。
 
-- Agent authority and scope boundaries
-- Evidence freshness and provenance
-- Deterministic validation
-- Risk-adaptive workflow routing
-- Provider reconciliation
-- Safe Git mutation and task-isolated integration
-- Multi-agent engineering workflows
-- Autonomous delivery reliability
+### Production Product
 
-### 2. Connectors 脈客
+**Connectors (脈客) · Private repository**
 
 **AI-powered personal CRM, shipped to production**
 
