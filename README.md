@@ -2,7 +2,7 @@
 
 [English](./README.md) · [繁體中文](./README.zh-TW.md) · [简体中文](./README.zh-CN.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [ไทย](./README.th.md)
 
-### Agentic Infrastructure Engineer · AI-Native Systems Builder
+### 莊宗憲 ·Agentic Infrastructure Engineer · AI-Native Systems Builder
 
 I turn ambiguous problems into concrete systems, workflows, and production outcomes.
 
