@@ -24,13 +24,15 @@ Software engineering の経験は 13+ 年で、architecture、full-stack systems
 
    **Evidence-first な AI エンジニアリングの信頼性とデリバリーのゲートキーパー**
 
-   [betterworkflows.dev](https://betterworkflows.dev) · [ソースコード](https://github.com/stephen-taipei/better-workflows) · [リリース](https://github.com/stephen-taipei/better-workflows/releases/tag/V5.0.rc1)
+   [betterworkflows.dev](https://betterworkflows.dev) · [ソースコード](https://github.com/stephen-taipei/better-workflows) · [npm](https://www.npmjs.com/package/@better-workflows/core)
 
-   V5.0 RC1 — 無料でインストール可能（AGPL-3.0-only）。Codex、Gemini CLI、Qwen Code に対応。Claude Code は V5.1 で対応予定。
+   V6 Core 6.0.0-alpha.2 — 無料でインストール可能（Apache-2.0）。まず Claude Code に対応し、Codex、Gemini CLI、Qwen Code は対応予定です。V5 は RC1 で凍結されています（AGPL-3.0-only）。
 
    ```bash
-   codex plugin marketplace add stephen-taipei/better-workflows
-   codex plugin add better-workflows@better-workflows
+   npm install -g @better-workflows/core@alpha
+   claude plugin marketplace add stephen-taipei/better-workflows
+   claude plugin install better-workflows-core@better-workflows --scope local
+   bw init
    ```
 
    **目標優先 · エビデンス駆動 · フェイルクローズ · リスク適応型**

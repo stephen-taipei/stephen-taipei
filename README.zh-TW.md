@@ -24,13 +24,15 @@
 
    **以 evidence 為先的 AI 工程可靠性與交付守門層**
 
-   [betterworkflows.dev](https://betterworkflows.dev) · [原始碼](https://github.com/stephen-taipei/better-workflows) · [發布版本](https://github.com/stephen-taipei/better-workflows/releases/tag/V5.0.rc1)
+   [betterworkflows.dev](https://betterworkflows.dev) · [原始碼](https://github.com/stephen-taipei/better-workflows) · [npm](https://www.npmjs.com/package/@better-workflows/core)
 
-   V5.0 RC1 — 可免費安裝（AGPL-3.0-only）。支援 Codex、Gemini CLI、Qwen Code；Claude Code 規劃於 V5.1。
+   V6 Core 6.0.0-alpha.2 — 可免費安裝（Apache-2.0）。先支援 Claude Code；Codex、Gemini CLI、Qwen Code 規劃中。V5 已定格在 RC1（AGPL-3.0-only）。
 
    ```bash
-   codex plugin marketplace add stephen-taipei/better-workflows
-   codex plugin add better-workflows@better-workflows
+   npm install -g @better-workflows/core@alpha
+   claude plugin marketplace add stephen-taipei/better-workflows
+   claude plugin install better-workflows-core@better-workflows --scope local
+   bw init
    ```
 
    **目標優先 · 證據驅動 · 失效即阻擋 · 風險自適應**

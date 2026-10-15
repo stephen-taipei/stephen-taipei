@@ -24,13 +24,15 @@
 
    **ชั้นควบคุมความน่าเชื่อถือและการส่งมอบงาน AI engineering แบบ evidence-first**
 
-   [betterworkflows.dev](https://betterworkflows.dev) · [ซอร์สโค้ด](https://github.com/stephen-taipei/better-workflows) · [รุ่นที่เผยแพร่](https://github.com/stephen-taipei/better-workflows/releases/tag/V5.0.rc1)
+   [betterworkflows.dev](https://betterworkflows.dev) · [ซอร์สโค้ด](https://github.com/stephen-taipei/better-workflows) · [npm](https://www.npmjs.com/package/@better-workflows/core)
 
-   V5.0 RC1 — ติดตั้งฟรี (AGPL-3.0-only) รองรับ Codex, Gemini CLI และ Qwen Code; วางแผนรองรับ Claude Code ใน V5.1
+   V6 Core 6.0.0-alpha.2 — ติดตั้งฟรี (Apache-2.0) รองรับ Claude Code ก่อน ส่วน Codex, Gemini CLI และ Qwen Code อยู่ในแผน V5 ตรึงไว้ที่ RC1 (AGPL-3.0-only)
 
    ```bash
-   codex plugin marketplace add stephen-taipei/better-workflows
-   codex plugin add better-workflows@better-workflows
+   npm install -g @better-workflows/core@alpha
+   claude plugin marketplace add stephen-taipei/better-workflows
+   claude plugin install better-workflows-core@better-workflows --scope local
+   bw init
    ```
 
    **เป้าหมายมาก่อน · ขับเคลื่อนด้วยหลักฐาน · หยุดเมื่อไม่แน่ชัด · ปรับตามความเสี่ยง**

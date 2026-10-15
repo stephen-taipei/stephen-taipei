@@ -24,13 +24,15 @@ These tools govern AI coding agents from intent to real repo changes through evi
 
    **Evidence-first AI engineering reliability + delivery gatekeeper**
 
-   [betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) · [Release](https://github.com/stephen-taipei/better-workflows/releases/tag/V5.0.rc1)
+   [betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) · [npm](https://www.npmjs.com/package/@better-workflows/core)
 
-   V5.0 RC1 — free to install (AGPL-3.0-only). Supports Codex, Gemini CLI, Qwen Code; Claude Code planned for V5.1.
+   V6 Core 6.0.0-alpha.2 — free to install (Apache-2.0). Claude Code first; Codex, Gemini CLI and Qwen Code are planned. V5 is frozen at RC1 (AGPL-3.0-only).
 
    ```bash
-   codex plugin marketplace add stephen-taipei/better-workflows
-   codex plugin add better-workflows@better-workflows
+   npm install -g @better-workflows/core@alpha
+   claude plugin marketplace add stephen-taipei/better-workflows
+   claude plugin install better-workflows-core@better-workflows --scope local
+   bw init
    ```
 
    **Goal-first · Evidence-driven · Fail-closed · Risk-adaptive**

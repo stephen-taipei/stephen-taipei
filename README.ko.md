@@ -24,13 +24,15 @@
 
    **Evidence-first AI 엔지니어링 신뢰성 + 딜리버리 게이트키퍼**
 
-   [betterworkflows.dev](https://betterworkflows.dev) · [소스 코드](https://github.com/stephen-taipei/better-workflows) · [릴리스](https://github.com/stephen-taipei/better-workflows/releases/tag/V5.0.rc1)
+   [betterworkflows.dev](https://betterworkflows.dev) · [소스 코드](https://github.com/stephen-taipei/better-workflows) · [npm](https://www.npmjs.com/package/@better-workflows/core)
 
-   V5.0 RC1 — 무료 설치 가능(AGPL-3.0-only). Codex, Gemini CLI, Qwen Code 지원; Claude Code는 V5.1에서 지원 예정입니다.
+   V6 Core 6.0.0-alpha.2 — 무료 설치 가능(Apache-2.0). Claude Code를 먼저 지원하며 Codex, Gemini CLI, Qwen Code는 지원 예정입니다. V5는 RC1에서 동결되었습니다(AGPL-3.0-only).
 
    ```bash
-   codex plugin marketplace add stephen-taipei/better-workflows
-   codex plugin add better-workflows@better-workflows
+   npm install -g @better-workflows/core@alpha
+   claude plugin marketplace add stephen-taipei/better-workflows
+   claude plugin install better-workflows-core@better-workflows --scope local
+   bw init
    ```
 
    **목표 우선 · 증거 기반 · 실패 시 차단 · 위험 적응형**
