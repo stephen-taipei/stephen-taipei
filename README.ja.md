@@ -2,7 +2,7 @@
 
 [English](./README.md) · [繁體中文](./README.zh-TW.md) · [简体中文](./README.zh-CN.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [ไทย](./README.th.md)
 
-### Agentic Infrastructure Engineer · AI-Native Systems Builder
+### AI-Native Systems Builder · Agentic Systems Engineer
 
 曖昧な課題を、具体的なシステム、ワークフロー、production outcome に変えることを得意としています。
 
@@ -39,7 +39,11 @@ Software engineering の経験は 13+ 年で、architecture、full-stack systems
 
 2. **[Deckhand](https://github.com/stephen-taipei/deckhand)**: Claude Code 向けのマルチ AI ツールバーで、usage gauges、モデル切り替え、parallel sub agents、Codex／Cursor／agy からの読み取り専用 second opinion を提供します。
 
-3. **[Stephen Skills](https://github.com/stephen-taipei/stephen-skills)**: 再利用可能な Agent Skills で、同じ `SKILL.md` をソースとして、Claude Code と Codex CLI の両方にネイティブでインストールできます。
+3. **[Intent Galaxy](https://github.com/stephen-taipei/intent-galaxy)**: あいまいな目標をひとつ、銀河マップに展開します。まず発散して死角を見つけ、次にキーボード操作で収束させ、確定的な意図仕様にまとめます。[npm](https://www.npmjs.com/package/@stephen.taipei/intent-galaxy)
+
+**その他のオープンソース：** **[Adorable Git Graph](https://github.com/stephen-taipei/adorable-git-graph)**: git の履歴をスクロールできるマンガ風の絵にします。commit は表情のある小さな球、branch は流れるパイプです。[デモ](https://stephen-taipei.github.io/adorable-git-graph/) · [npm](https://www.npmjs.com/package/@stephen.taipei/adorable-git-graph)
+
+[オープンソース一覧 →](https://stephen.taipei/ja/open-source)
 
 ### 提供中のプロダクト
 
@@ -49,7 +53,8 @@ Software engineering の経験は 13+ 年で、architecture、full-stack systems
 
 [ctrs.app](https://ctrs.app) · [App Store](https://apps.apple.com/tw/app/%E8%84%88%E5%AE%A2-connectors-ai-crm/id6758259873)
 
-- **役割:** Product direction、architecture、AI-assisted delivery orchestration、Code Review、QA、iOS/Android release delivery
+- **役割:** Product direction、architecture、AI-assisted delivery orchestration、Code Review、QA、iOS release delivery
+- **状況：** iOS と Web で公開中 · Android は開発中
 - **AI 支援による実装技術:** React、NestJS、tRPC、SwiftUI、Kotlin Compose
 
 ## エンジニアリング実績
@@ -62,7 +67,7 @@ Software engineering の経験は 13+ 年で、architecture、full-stack systems
 
 - 100+ themes を支える Angular/Nx architecture を設計・主導し、代表的な production theme leaf を **23 行**まで削減
 - 単一 theme CSS request を約 **2.4 MB から 17 KB** へ約 99% 削減し、実測 Lighthouse Performance を **50+ から 90+** へ改善
-- 6 人の cross-functional engineering team をリード
+- フロントエンドエンジニア3–4名を直接率い、直属ではない複数のサポートエンジニアとの連携を調整。社内技術共有会を不定期に主催。
 
 各成果の scope、baseline、明示的な [主張しない事項](https://github.com/stephen-taipei/frontend-engineering-case-studies/blob/main/docs/evidence-boundaries.md) を分離して記載しています。
 
@@ -82,4 +87,4 @@ Agentic systems、AI agent reliability、developer infrastructure、OSS collabor
 
 台湾 · リモート
 
-[ウェブサイト](https://stephen.taipei) · [Better Workflows](https://betterworkflows.dev) · [Connectors](https://ctrs.app) · [事例研究](https://github.com/stephen-taipei/frontend-engineering-case-studies)
+[ウェブサイト](https://stephen.taipei) · [記事](https://stephen.taipei/ja/articles) · [LinkedIn](https://www.linkedin.com/in/stephentaipei) · [Better Workflows](https://betterworkflows.dev) · [Connectors](https://ctrs.app) · [事例研究](https://github.com/stephen-taipei/frontend-engineering-case-studies)

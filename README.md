@@ -2,7 +2,7 @@
 
 [English](./README.md) · [繁體中文](./README.zh-TW.md) · [简体中文](./README.zh-CN.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [ไทย](./README.th.md)
 
-### 莊宗憲 · Agentic Infrastructure Engineer · AI-Native Systems Builder
+### 莊宗憲 · AI-Native Systems Builder · Agentic Systems Engineer
 
 I turn ambiguous problems into concrete systems, workflows, and production outcomes.
 
@@ -39,7 +39,11 @@ These tools govern AI coding agents from intent to real repo changes through evi
 
 2. **[Deckhand](https://github.com/stephen-taipei/deckhand)**: Multi-AI toolbar for Claude Code: usage gauges, model switching, parallel sub agents, read-only second opinions from Codex/Cursor/agy.
 
-3. **[Stephen Skills](https://github.com/stephen-taipei/stephen-skills)**: Reusable Agent Skills; one `SKILL.md` source, native installation in Claude Code/Codex CLI.
+3. **[Intent Galaxy](https://github.com/stephen-taipei/intent-galaxy)**: Turns one vague goal into a galaxy map: spread out first to see the blind spots, then converge from the keyboard into a deterministic intent spec. [npm](https://www.npmjs.com/package/@stephen.taipei/intent-galaxy)
+
+**Also open source:** **[Adorable Git Graph](https://github.com/stephen-taipei/adorable-git-graph)**: Your git history as a cartoon you can scroll: every commit is a ball with a face, every branch a flowing pipe. [Demo](https://stephen-taipei.github.io/adorable-git-graph/) · [npm](https://www.npmjs.com/package/@stephen.taipei/adorable-git-graph)
+
+[All open-source projects →](https://stephen.taipei/en/open-source)
 
 ### Shipped Product
 
@@ -49,7 +53,8 @@ These tools govern AI coding agents from intent to real repo changes through evi
 
 [ctrs.app](https://ctrs.app) · [App Store](https://apps.apple.com/tw/app/%E8%84%88%E5%AE%A2-connectors-ai-crm/id6758259873)
 
-- **Role:** Product direction, architecture, AI-assisted delivery orchestration, Code Review, QA, and iOS/Android release delivery.
+- **Role:** Product direction, architecture, AI-assisted delivery orchestration, Code Review, QA, and iOS release delivery.
+- **Status:** Live on iOS and the web · Android in development
 - **AI-assisted implementation context:** React, NestJS, tRPC, SwiftUI, and Kotlin Compose.
 
 ## Engineering Track Record
@@ -62,7 +67,7 @@ Selected production architecture work from my frontend engineering background:
 
 - Designed and led an Angular/Nx architecture supporting 100+ themes, reducing a representative production theme leaf to **23 lines**.
 - Reduced a theme CSS request from approximately **2.4 MB to 17 KB** (~99%) and improved measured Lighthouse Performance from **50+ to 90+**.
-- Led a 6-person cross-functional engineering team.
+- Directly led 3–4 frontend engineers and coordinated several support engineers who did not report to me; hosted occasional internal tech talks.
 
 Scope, baseline, and what is explicitly [not claimed](https://github.com/stephen-taipei/frontend-engineering-case-studies/blob/main/docs/evidence-boundaries.md) for each result.
 
@@ -82,4 +87,4 @@ Selective conversations around agentic systems, AI agent reliability, developer 
 
 Taiwan · Remote
 
-[Website](https://stephen.taipei) · [Better Workflows](https://betterworkflows.dev) · [Connectors](https://ctrs.app) · [Case Studies](https://github.com/stephen-taipei/frontend-engineering-case-studies)
+[Website](https://stephen.taipei) · [Articles](https://stephen.taipei/en/articles) · [LinkedIn](https://www.linkedin.com/in/stephentaipei) · [Better Workflows](https://betterworkflows.dev) · [Connectors](https://ctrs.app) · [Case Studies](https://github.com/stephen-taipei/frontend-engineering-case-studies)

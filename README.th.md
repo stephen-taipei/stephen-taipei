@@ -2,7 +2,7 @@
 
 [English](./README.md) · [繁體中文](./README.zh-TW.md) · [简体中文](./README.zh-CN.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [ไทย](./README.th.md)
 
-### Agentic Infrastructure Engineer · AI-Native Systems Builder
+### AI-Native Systems Builder · Agentic Systems Engineer
 
 ผมเปลี่ยนปัญหาที่กำกวมให้กลายเป็นระบบที่ชัดเจน workflow ที่ใช้งานได้ และ production outcome ที่ตรวจสอบได้
 
@@ -39,7 +39,11 @@
 
 2. **[Deckhand](https://github.com/stephen-taipei/deckhand)**: แถบเครื่องมือหลาย AI สำหรับ Claude Code พร้อม usage gauges, การสลับโมเดล, parallel sub agents และ second opinion แบบอ่านอย่างเดียวจาก Codex／Cursor／agy
 
-3. **[Stephen Skills](https://github.com/stephen-taipei/stephen-skills)**: Agent Skills ที่ใช้ซ้ำได้ โดยใช้ `SKILL.md` แหล่งเดียวและติดตั้งแบบ native ได้ทั้งใน Claude Code และ Codex CLI
+3. **[Intent Galaxy](https://github.com/stephen-taipei/intent-galaxy)**: ขยายเป้าหมายที่คลุมเครือหนึ่งข้อให้เป็นแผนที่กาแล็กซี: เริ่มจากกระจายความคิดเพื่อมองเห็นจุดบอด แล้วใช้แป้นพิมพ์รวบให้เป็นสเปกความตั้งใจที่แน่นอน [npm](https://www.npmjs.com/package/@stephen.taipei/intent-galaxy)
+
+**โอเพนซอร์สอื่น ๆ:** **[Adorable Git Graph](https://github.com/stephen-taipei/adorable-git-graph)**: ประวัติ git ของคุณในรูปการ์ตูนที่เลื่อนดูได้: แต่ละ commit เป็นลูกบอลที่มีสีหน้า และแต่ละ branch เป็นท่อที่ไหลต่อกัน [เดโม](https://stephen-taipei.github.io/adorable-git-graph/) · [npm](https://www.npmjs.com/package/@stephen.taipei/adorable-git-graph)
+
+[โปรเจกต์โอเพนซอร์สทั้งหมด →](https://stephen.taipei/th/open-source)
 
 ### ผลิตภัณฑ์ที่เปิดใช้งานแล้ว
 
@@ -49,7 +53,8 @@
 
 [ctrs.app](https://ctrs.app) · [App Store](https://apps.apple.com/tw/app/%E8%84%88%E5%AE%A2-connectors-ai-crm/id6758259873)
 
-- **บทบาท:** Product direction, architecture, AI-assisted delivery orchestration, Code Review, QA และ iOS/Android release delivery
+- **บทบาท:** Product direction, architecture, AI-assisted delivery orchestration, Code Review, QA และ iOS release delivery
+- **สถานะ:** ใช้งานได้แล้วบน iOS และเว็บ · Android กำลังพัฒนา
 - **เทคโนโลยีที่พัฒนาร่วมกับ AI:** React, NestJS, tRPC, SwiftUI และ Kotlin Compose
 
 ## ผลงานด้านวิศวกรรม
@@ -62,7 +67,7 @@
 
 - ออกแบบและนำ Angular/Nx architecture ที่รองรับ 100+ themes และลด representative production theme leaf เหลือ **23 บรรทัด**
 - ลด theme CSS request หนึ่งชุดจากประมาณ **2.4 MB เหลือ 17 KB** หรือประมาณ 99% และเพิ่ม measured Lighthouse Performance จาก **50+ เป็น 90+**
-- นำ cross-functional engineering team จำนวน 6 คน
+- นำทีมวิศวกร frontend 3–4 คนโดยตรง ประสานงานกับวิศวกรสนับสนุนหลายคนที่ไม่ได้ขึ้นตรงกับผม และจัดเทคทอล์กภายในเป็นครั้งคราว
 
 Scope, baseline และสิ่งที่ [ไม่ได้อ้าง](https://github.com/stephen-taipei/frontend-engineering-case-studies/blob/main/docs/evidence-boundaries.md) ถูกแยกไว้ชัดเจนสำหรับแต่ละผลลัพธ์
 
@@ -82,4 +87,4 @@ Scope, baseline และสิ่งที่ [ไม่ได้อ้าง](
 
 ไต้หวัน · ทำงานระยะไกล
 
-[เว็บไซต์](https://stephen.taipei) · [Better Workflows](https://betterworkflows.dev) · [Connectors](https://ctrs.app) · [กรณีศึกษา](https://github.com/stephen-taipei/frontend-engineering-case-studies)
+[เว็บไซต์](https://stephen.taipei) · [บทความ](https://stephen.taipei/th/articles) · [LinkedIn](https://www.linkedin.com/in/stephentaipei) · [Better Workflows](https://betterworkflows.dev) · [Connectors](https://ctrs.app) · [กรณีศึกษา](https://github.com/stephen-taipei/frontend-engineering-case-studies)

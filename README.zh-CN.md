@@ -2,7 +2,7 @@
 
 [English](./README.md) · [繁體中文](./README.zh-TW.md) · [简体中文](./README.zh-CN.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [ไทย](./README.th.md)
 
-### Agentic Infrastructure Engineer · AI-Native Systems Builder
+### AI-Native Systems Builder · Agentic Systems Engineer
 
 我擅长把模糊问题转化为具体系统、工作流和可落地的 production outcome。
 
@@ -39,7 +39,11 @@
 
 2. **[Deckhand](https://github.com/stephen-taipei/deckhand)**: Claude Code 的多 AI 工具栏，提供 usage gauges、模型切换、parallel sub agents，以及来自 Codex／Cursor／agy 的只读 second opinion。
 
-3. **[Stephen Skills](https://github.com/stephen-taipei/stephen-skills)**: 可复用的 Agent Skills；以同一份 `SKILL.md` 为来源，Claude Code 和 Codex CLI 都能原生安装。
+3. **[Intent Galaxy](https://github.com/stephen-taipei/intent-galaxy)**: 把一句模糊的目标展开成星系图：先发散以看见盲区，再用键盘收敛成确定性的意图规格。[npm](https://www.npmjs.com/package/@stephen.taipei/intent-galaxy)
+
+**其他开源项目：** **[Adorable Git Graph](https://github.com/stephen-taipei/adorable-git-graph)**: 把 git 历史画成可以滚动的卡通：每个 commit 是一个有表情的小球，每条 branch 是流动的管线。[Demo](https://stephen-taipei.github.io/adorable-git-graph/) · [npm](https://www.npmjs.com/package/@stephen.taipei/adorable-git-graph)
+
+[所有开源项目 →](https://stephen.taipei/zh-cn/open-source)
 
 ### 已上线产品
 
@@ -49,7 +53,8 @@
 
 [ctrs.app](https://ctrs.app) · [App Store](https://apps.apple.com/tw/app/%E8%84%88%E5%AE%A2-connectors-ai-crm/id6758259873)
 
-- **角色：** Product direction、architecture、AI-assisted delivery orchestration、Code Review、QA，以及 iOS/Android release delivery
+- **角色：** Product direction、architecture、AI-assisted delivery orchestration、Code Review、QA，以及 iOS release delivery
+- **状态：** iOS 和网页版已上线 · Android 开发中
 - **AI 辅助实现技术：** React、NestJS、tRPC、SwiftUI、Kotlin Compose
 
 ## 工程实绩
@@ -62,7 +67,7 @@
 
 - 设计并主导 Angular/Nx architecture，支持 100+ themes，将一个具有代表性的 production theme leaf 降到 **23 行**
 - 将单一 theme CSS request 约从 **2.4 MB 降到 17 KB**，约 99%，并将实测 Lighthouse Performance 从 **50+ 提升到 90+**
-- 带领 6 人 cross-functional engineering team
+- 直接带领 3–4 位前端工程师，并协调多位非直属的支持工程师；不定期主办内部技术分享会。
 
 各成果的 scope、baseline 和明确 [未声明事项](https://github.com/stephen-taipei/frontend-engineering-case-studies/blob/main/docs/evidence-boundaries.md) 已独立列出。
 
@@ -82,4 +87,4 @@
 
 台湾 · 远程
 
-[个人网站](https://stephen.taipei) · [Better Workflows](https://betterworkflows.dev) · [Connectors](https://ctrs.app) · [案例研究](https://github.com/stephen-taipei/frontend-engineering-case-studies)
+[个人网站](https://stephen.taipei) · [文章](https://stephen.taipei/zh-cn/articles) · [LinkedIn](https://www.linkedin.com/in/stephentaipei) · [Better Workflows](https://betterworkflows.dev) · [Connectors](https://ctrs.app) · [案例研究](https://github.com/stephen-taipei/frontend-engineering-case-studies)

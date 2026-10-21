@@ -2,7 +2,7 @@
 
 [English](./README.md) · [繁體中文](./README.zh-TW.md) · [简体中文](./README.zh-CN.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [ไทย](./README.th.md)
 
-### Agentic Infrastructure Engineer · AI-Native Systems Builder
+### AI-Native Systems Builder · Agentic Systems Engineer
 
 모호한 문제를 구체적인 시스템, workflow, production outcome으로 바꾸는 일을 합니다.
 
@@ -39,7 +39,11 @@
 
 2. **[Deckhand](https://github.com/stephen-taipei/deckhand)**: Claude Code용 멀티 AI 도구 모음으로 usage gauges, 모델 전환, parallel sub agents, Codex／Cursor／agy의 읽기 전용 second opinion을 제공합니다.
 
-3. **[Stephen Skills](https://github.com/stephen-taipei/stephen-skills)**: 재사용 가능한 Agent Skills로, 하나의 `SKILL.md` 소스를 Claude Code와 Codex CLI 모두에 네이티브로 설치할 수 있습니다.
+3. **[Intent Galaxy](https://github.com/stephen-taipei/intent-galaxy)**: 모호한 목표 하나를 은하 지도로 펼칩니다. 먼저 발산해서 사각지대를 확인한 다음, 키보드로 수렴시켜 확정적인 의도 명세로 만듭니다. [npm](https://www.npmjs.com/package/@stephen.taipei/intent-galaxy)
+
+**기타 오픈소스:** **[Adorable Git Graph](https://github.com/stephen-taipei/adorable-git-graph)**: git 히스토리를 스크롤할 수 있는 만화로 그려 줍니다. commit은 표정이 있는 작은 공이고, branch는 흐르는 파이프입니다. [데모](https://stephen-taipei.github.io/adorable-git-graph/) · [npm](https://www.npmjs.com/package/@stephen.taipei/adorable-git-graph)
+
+[오픈소스 전체 보기 →](https://stephen.taipei/ko/open-source)
 
 ### 출시된 제품
 
@@ -49,7 +53,8 @@
 
 [ctrs.app](https://ctrs.app) · [App Store](https://apps.apple.com/tw/app/%E8%84%88%E5%AE%A2-connectors-ai-crm/id6758259873)
 
-- **역할:** Product direction, architecture, AI-assisted delivery orchestration, Code Review, QA, iOS/Android release delivery
+- **역할:** Product direction, architecture, AI-assisted delivery orchestration, Code Review, QA, iOS release delivery
+- **상태:** iOS와 웹에서 이용 가능 · Android 개발 중
 - **AI 지원 구현 기술:** React, NestJS, tRPC, SwiftUI, Kotlin Compose
 
 ## 엔지니어링 실적
@@ -62,7 +67,7 @@
 
 - 100+ themes를 지원하는 Angular/Nx architecture를 설계하고 주도해 대표 production theme leaf를 **23줄**로 축소
 - 단일 theme CSS request를 약 **2.4 MB에서 17 KB**로 약 99% 줄이고, 측정된 Lighthouse Performance를 **50+에서 90+**로 개선
-- 6인 cross-functional engineering team 리드
+- 프런트엔드 엔지니어 3–4명을 직접 이끌고 직속이 아닌 지원 엔지니어 여러 명을 조율, 사내 기술 세미나를 비정기적으로 주최.
 
 각 결과의 scope, baseline, 명시적 [주장하지 않는 사항](https://github.com/stephen-taipei/frontend-engineering-case-studies/blob/main/docs/evidence-boundaries.md)을 분리해 기록했습니다.
 
@@ -82,4 +87,4 @@ Agentic systems, AI agent reliability, developer infrastructure, OSS collaborati
 
 대만 · 원격
 
-[웹사이트](https://stephen.taipei) · [Better Workflows](https://betterworkflows.dev) · [Connectors](https://ctrs.app) · [사례 연구](https://github.com/stephen-taipei/frontend-engineering-case-studies)
+[웹사이트](https://stephen.taipei) · [글](https://stephen.taipei/ko/articles) · [LinkedIn](https://www.linkedin.com/in/stephentaipei) · [Better Workflows](https://betterworkflows.dev) · [Connectors](https://ctrs.app) · [사례 연구](https://github.com/stephen-taipei/frontend-engineering-case-studies)
