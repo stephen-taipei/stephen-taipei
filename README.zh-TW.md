@@ -26,7 +26,7 @@
 
    [betterworkflows.dev](https://betterworkflows.dev) · [原始碼](https://github.com/stephen-taipei/better-workflows) · [npm](https://www.npmjs.com/package/@better-workflows/core)
 
-   V6 Core 6.0.0-alpha.2 — 可免費安裝（Apache-2.0）。先支援 Claude Code；Codex、Gemini CLI、Qwen Code 規劃中。V5 已定格在 RC1（AGPL-3.0-only）。
+   V6 Core 6.0.0-alpha.3 — 可免費安裝（Apache-2.0）。先支援 Claude Code，Codex adapter 實驗中。V5 已定格在 RC1（AGPL-3.0-only）。
 
    ```bash
    npm install -g @better-workflows/core@alpha
@@ -35,7 +35,7 @@
    bw init
    ```
 
-   **目標優先 · 證據驅動 · 失效即阻擋 · 風險自適應**
+   **證據對應現在的檔案 · 副作用最多一次 · Policy，不是 prompt · 不明就停**
 
 2. **[Deckhand](https://github.com/stephen-taipei/deckhand)**: Claude Code 的多 AI 工具列，提供 usage gauges、模型切換、parallel sub agents，以及來自 Codex／Cursor／agy 的唯讀 second opinion。
 

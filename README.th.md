@@ -26,7 +26,7 @@
 
    [betterworkflows.dev](https://betterworkflows.dev) · [ซอร์สโค้ด](https://github.com/stephen-taipei/better-workflows) · [npm](https://www.npmjs.com/package/@better-workflows/core)
 
-   V6 Core 6.0.0-alpha.2 — ติดตั้งฟรี (Apache-2.0) รองรับ Claude Code ก่อน ส่วน Codex, Gemini CLI และ Qwen Code อยู่ในแผน V5 ตรึงไว้ที่ RC1 (AGPL-3.0-only)
+   V6 Core 6.0.0-alpha.3 — ติดตั้งฟรี (Apache-2.0) รองรับ Claude Code ก่อน และมี Codex adapter รุ่นทดลอง V5 ตรึงไว้ที่ RC1 (AGPL-3.0-only)
 
    ```bash
    npm install -g @better-workflows/core@alpha
@@ -35,7 +35,7 @@
    bw init
    ```
 
-   **เป้าหมายมาก่อน · ขับเคลื่อนด้วยหลักฐาน · หยุดเมื่อไม่แน่ชัด · ปรับตามความเสี่ยง**
+   **หลักฐานปัจจุบัน · ไม่เกินหนึ่งครั้ง · Policy ไม่ใช่ prompt · Fail-closed**
 
 2. **[Deckhand](https://github.com/stephen-taipei/deckhand)**: แถบเครื่องมือหลาย AI สำหรับ Claude Code พร้อม usage gauges, การสลับโมเดล, parallel sub agents และ second opinion แบบอ่านอย่างเดียวจาก Codex／Cursor／agy
 

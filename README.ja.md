@@ -26,7 +26,7 @@ Software engineering の経験は 13+ 年で、architecture、full-stack systems
 
    [betterworkflows.dev](https://betterworkflows.dev) · [ソースコード](https://github.com/stephen-taipei/better-workflows) · [npm](https://www.npmjs.com/package/@better-workflows/core)
 
-   V6 Core 6.0.0-alpha.2 — 無料でインストール可能（Apache-2.0）。まず Claude Code に対応し、Codex、Gemini CLI、Qwen Code は対応予定です。V5 は RC1 で凍結されています（AGPL-3.0-only）。
+   V6 Core 6.0.0-alpha.3 — 無料でインストール可能（Apache-2.0）。まず Claude Code に対応し、Codex adapter は実験的に同梱しています。V5 は RC1 で凍結されています（AGPL-3.0-only）。
 
    ```bash
    npm install -g @better-workflows/core@alpha
@@ -35,7 +35,7 @@ Software engineering の経験は 13+ 年で、architecture、full-stack systems
    bw init
    ```
 
-   **目標優先 · エビデンス駆動 · フェイルクローズ · リスク適応型**
+   **現在の証拠 · 最大 1 回 · プロンプトではなく policy · フェイルクローズ**
 
 2. **[Deckhand](https://github.com/stephen-taipei/deckhand)**: Claude Code 向けのマルチ AI ツールバーで、usage gauges、モデル切り替え、parallel sub agents、Codex／Cursor／agy からの読み取り専用 second opinion を提供します。
 

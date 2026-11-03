@@ -26,7 +26,7 @@
 
    [betterworkflows.dev](https://betterworkflows.dev) · [소스 코드](https://github.com/stephen-taipei/better-workflows) · [npm](https://www.npmjs.com/package/@better-workflows/core)
 
-   V6 Core 6.0.0-alpha.2 — 무료 설치 가능(Apache-2.0). Claude Code를 먼저 지원하며 Codex, Gemini CLI, Qwen Code는 지원 예정입니다. V5는 RC1에서 동결되었습니다(AGPL-3.0-only).
+   V6 Core 6.0.0-alpha.3 — 무료 설치 가능(Apache-2.0). Claude Code를 먼저 지원하며 Codex adapter는 실험 단계입니다. V5는 RC1에서 동결되었습니다(AGPL-3.0-only).
 
    ```bash
    npm install -g @better-workflows/core@alpha
@@ -35,7 +35,7 @@
    bw init
    ```
 
-   **목표 우선 · 증거 기반 · 실패 시 차단 · 위험 적응형**
+   **현재 증거 · 최대 한 번 · 프롬프트가 아닌 policy · Fail-closed**
 
 2. **[Deckhand](https://github.com/stephen-taipei/deckhand)**: Claude Code용 멀티 AI 도구 모음으로 usage gauges, 모델 전환, parallel sub agents, Codex／Cursor／agy의 읽기 전용 second opinion을 제공합니다.
 
