@@ -26,7 +26,7 @@ These tools govern AI coding agents from intent to real repo changes through evi
 
    [betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) · [npm](https://www.npmjs.com/package/@better-workflows/core)
 
-   V6 Core 6.0.0-alpha.2 — free to install (Apache-2.0). Claude Code first; Codex, Gemini CLI and Qwen Code are planned. V5 is frozen at RC1 (AGPL-3.0-only).
+   V6 Core 6.0.0-alpha.3 — free to install (Apache-2.0). Claude Code first; an experimental Codex adapter is included. V5 is frozen at RC1 (AGPL-3.0-only).
 
    ```bash
    npm install -g @better-workflows/core@alpha
@@ -35,7 +35,7 @@ These tools govern AI coding agents from intent to real repo changes through evi
    bw init
    ```
 
-   **Goal-first · Evidence-driven · Fail-closed · Risk-adaptive**
+   **Current evidence · At most once · Policy, not prompt · Fail-closed**
 
 2. **[Deckhand](https://github.com/stephen-taipei/deckhand)**: Multi-AI toolbar for Claude Code: usage gauges, model switching, parallel sub agents, read-only second opinions from Codex/Cursor/agy.
 
