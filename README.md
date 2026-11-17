@@ -2,7 +2,7 @@
 
 [English](./README.md) · [繁體中文](./README.zh-TW.md) · [简体中文](./README.zh-CN.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [ไทย](./README.th.md)
 
-### 莊宗憲 · AI-Native Systems Builder · Agentic Systems Engineer
+### 莊宗憲 · AI-Native Systems Builder · Agentic Systems Engineer · Tech Lead
 
 I turn ambiguous problems into concrete systems, workflows, and production outcomes.
 
@@ -26,7 +26,7 @@ These tools govern AI coding agents from intent to real repo changes through evi
 
    [betterworkflows.dev](https://betterworkflows.dev) · [Source](https://github.com/stephen-taipei/better-workflows) · [npm](https://www.npmjs.com/package/@better-workflows/core)
 
-   V6 Core 6.0.0-alpha.3 — free to install (Apache-2.0). Claude Code first; an experimental Codex adapter is included. V5 is frozen at RC1 (AGPL-3.0-only).
+   V6 Core 6.0.0-alpha.5 — free to install (Apache-2.0). Claude Code first; an experimental Codex adapter is included. V5 is frozen at RC1 (AGPL-3.0-only).
 
    ```bash
    npm install -g @better-workflows/core@alpha
