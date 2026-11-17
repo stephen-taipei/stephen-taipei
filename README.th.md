@@ -2,7 +2,7 @@
 
 [English](./README.md) · [繁體中文](./README.zh-TW.md) · [简体中文](./README.zh-CN.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [ไทย](./README.th.md)
 
-### AI-Native Systems Builder · Agentic Systems Engineer
+### AI-Native Systems Builder · Agentic Systems Engineer · Tech Lead
 
 ผมเปลี่ยนปัญหาที่กำกวมให้กลายเป็นระบบที่ชัดเจน workflow ที่ใช้งานได้ และ production outcome ที่ตรวจสอบได้
 
@@ -26,7 +26,7 @@
 
    [betterworkflows.dev](https://betterworkflows.dev) · [ซอร์สโค้ด](https://github.com/stephen-taipei/better-workflows) · [npm](https://www.npmjs.com/package/@better-workflows/core)
 
-   V6 Core 6.0.0-alpha.3 — ติดตั้งฟรี (Apache-2.0) รองรับ Claude Code ก่อน และมี Codex adapter รุ่นทดลอง V5 ตรึงไว้ที่ RC1 (AGPL-3.0-only)
+   V6 Core 6.0.0-alpha.5 — ติดตั้งฟรี (Apache-2.0) รองรับ Claude Code ก่อน และมี Codex adapter รุ่นทดลอง V5 ตรึงไว้ที่ RC1 (AGPL-3.0-only)
 
    ```bash
    npm install -g @better-workflows/core@alpha

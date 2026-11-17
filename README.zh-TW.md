@@ -2,7 +2,7 @@
 
 [English](./README.md) · [繁體中文](./README.zh-TW.md) · [简体中文](./README.zh-CN.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [ไทย](./README.th.md)
 
-### AI-Native Systems Builder · Agentic Systems Engineer
+### AI-Native Systems Builder · Agentic Systems Engineer · Tech Lead
 
 我擅長把模糊問題轉化成具體系統、工作流與能實際上線的 production outcome。
 
@@ -26,7 +26,7 @@
 
    [betterworkflows.dev](https://betterworkflows.dev) · [原始碼](https://github.com/stephen-taipei/better-workflows) · [npm](https://www.npmjs.com/package/@better-workflows/core)
 
-   V6 Core 6.0.0-alpha.3 — 可免費安裝（Apache-2.0）。先支援 Claude Code，Codex adapter 實驗中。V5 已定格在 RC1（AGPL-3.0-only）。
+   V6 Core 6.0.0-alpha.5 — 可免費安裝（Apache-2.0）。先支援 Claude Code，Codex adapter 實驗中。V5 已定格在 RC1（AGPL-3.0-only）。
 
    ```bash
    npm install -g @better-workflows/core@alpha

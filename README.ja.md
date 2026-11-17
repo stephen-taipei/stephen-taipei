@@ -2,7 +2,7 @@
 
 [English](./README.md) · [繁體中文](./README.zh-TW.md) · [简体中文](./README.zh-CN.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [ไทย](./README.th.md)
 
-### AI-Native Systems Builder · Agentic Systems Engineer
+### AI-Native Systems Builder · Agentic Systems Engineer · Tech Lead
 
 曖昧な課題を、具体的なシステム、ワークフロー、production outcome に変えることを得意としています。
 
@@ -26,7 +26,7 @@ Software engineering の経験は 13+ 年で、architecture、full-stack systems
 
    [betterworkflows.dev](https://betterworkflows.dev) · [ソースコード](https://github.com/stephen-taipei/better-workflows) · [npm](https://www.npmjs.com/package/@better-workflows/core)
 
-   V6 Core 6.0.0-alpha.3 — 無料でインストール可能（Apache-2.0）。まず Claude Code に対応し、Codex adapter は実験的に同梱しています。V5 は RC1 で凍結されています（AGPL-3.0-only）。
+   V6 Core 6.0.0-alpha.5 — 無料でインストール可能（Apache-2.0）。まず Claude Code に対応し、Codex adapter は実験的に同梱しています。V5 は RC1 で凍結されています（AGPL-3.0-only）。
 
    ```bash
    npm install -g @better-workflows/core@alpha
