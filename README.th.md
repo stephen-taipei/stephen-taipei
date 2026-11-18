@@ -39,8 +39,6 @@
 
 2. **[Deckhand](https://github.com/stephen-taipei/deckhand)**: แถบเครื่องมือหลาย AI สำหรับ Claude Code พร้อม usage gauges, การสลับโมเดล, parallel sub agents และ second opinion แบบอ่านอย่างเดียวจาก Codex／Cursor／agy
 
-3. **[Intent Galaxy](https://github.com/stephen-taipei/intent-galaxy)**: ขยายเป้าหมายที่คลุมเครือหนึ่งข้อให้เป็นแผนที่กาแล็กซี: เริ่มจากกระจายความคิดเพื่อมองเห็นจุดบอด แล้วใช้แป้นพิมพ์รวบให้เป็นสเปกความตั้งใจที่แน่นอน [npm](https://www.npmjs.com/package/@stephen.taipei/intent-galaxy)
-
 **โอเพนซอร์สอื่น ๆ:** **[Adorable Git Graph](https://github.com/stephen-taipei/adorable-git-graph)**: ประวัติ git ของคุณในรูปการ์ตูนที่เลื่อนดูได้: แต่ละ commit เป็นลูกบอลที่มีสีหน้า และแต่ละ branch เป็นท่อที่ไหลต่อกัน [เดโม](https://stephen-taipei.github.io/adorable-git-graph/) · [npm](https://www.npmjs.com/package/@stephen.taipei/adorable-git-graph)
 
 [โปรเจกต์โอเพนซอร์สทั้งหมด →](https://stephen.taipei/th/open-source)

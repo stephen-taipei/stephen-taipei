@@ -39,8 +39,6 @@
 
 2. **[Deckhand](https://github.com/stephen-taipei/deckhand)**: Claude Code용 멀티 AI 도구 모음으로 usage gauges, 모델 전환, parallel sub agents, Codex／Cursor／agy의 읽기 전용 second opinion을 제공합니다.
 
-3. **[Intent Galaxy](https://github.com/stephen-taipei/intent-galaxy)**: 모호한 목표 하나를 은하 지도로 펼칩니다. 먼저 발산해서 사각지대를 확인한 다음, 키보드로 수렴시켜 확정적인 의도 명세로 만듭니다. [npm](https://www.npmjs.com/package/@stephen.taipei/intent-galaxy)
-
 **기타 오픈소스:** **[Adorable Git Graph](https://github.com/stephen-taipei/adorable-git-graph)**: git 히스토리를 스크롤할 수 있는 만화로 그려 줍니다. commit은 표정이 있는 작은 공이고, branch는 흐르는 파이프입니다. [데모](https://stephen-taipei.github.io/adorable-git-graph/) · [npm](https://www.npmjs.com/package/@stephen.taipei/adorable-git-graph)
 
 [오픈소스 전체 보기 →](https://stephen.taipei/ko/open-source)

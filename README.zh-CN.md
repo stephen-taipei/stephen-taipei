@@ -39,8 +39,6 @@
 
 2. **[Deckhand](https://github.com/stephen-taipei/deckhand)**: Claude Code 的多 AI 工具栏，提供 usage gauges、模型切换、parallel sub agents，以及来自 Codex／Cursor／agy 的只读 second opinion。
 
-3. **[Intent Galaxy](https://github.com/stephen-taipei/intent-galaxy)**: 把一句模糊的目标展开成星系图：先发散以看见盲区，再用键盘收敛成确定性的意图规格。[npm](https://www.npmjs.com/package/@stephen.taipei/intent-galaxy)
-
 **其他开源项目：** **[Adorable Git Graph](https://github.com/stephen-taipei/adorable-git-graph)**: 把 git 历史画成可以滚动的卡通：每个 commit 是一个有表情的小球，每条 branch 是流动的管线。[Demo](https://stephen-taipei.github.io/adorable-git-graph/) · [npm](https://www.npmjs.com/package/@stephen.taipei/adorable-git-graph)
 
 [所有开源项目 →](https://stephen.taipei/zh-cn/open-source)
