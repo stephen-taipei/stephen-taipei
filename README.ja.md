@@ -39,8 +39,6 @@ Software engineering の経験は 13+ 年で、architecture、full-stack systems
 
 2. **[Deckhand](https://github.com/stephen-taipei/deckhand)**: Claude Code 向けのマルチ AI ツールバーで、usage gauges、モデル切り替え、parallel sub agents、Codex／Cursor／agy からの読み取り専用 second opinion を提供します。
 
-3. **[Intent Galaxy](https://github.com/stephen-taipei/intent-galaxy)**: あいまいな目標をひとつ、銀河マップに展開します。まず発散して死角を見つけ、次にキーボード操作で収束させ、確定的な意図仕様にまとめます。[npm](https://www.npmjs.com/package/@stephen.taipei/intent-galaxy)
-
 **その他のオープンソース：** **[Adorable Git Graph](https://github.com/stephen-taipei/adorable-git-graph)**: git の履歴をスクロールできるマンガ風の絵にします。commit は表情のある小さな球、branch は流れるパイプです。[デモ](https://stephen-taipei.github.io/adorable-git-graph/) · [npm](https://www.npmjs.com/package/@stephen.taipei/adorable-git-graph)
 
 [オープンソース一覧 →](https://stephen.taipei/ja/open-source)

@@ -39,8 +39,6 @@ These tools govern AI coding agents from intent to real repo changes through evi
 
 2. **[Deckhand](https://github.com/stephen-taipei/deckhand)**: Multi-AI toolbar for Claude Code: usage gauges, model switching, parallel sub agents, read-only second opinions from Codex/Cursor/agy.
 
-3. **[Intent Galaxy](https://github.com/stephen-taipei/intent-galaxy)**: Turns one vague goal into a galaxy map: spread out first to see the blind spots, then converge from the keyboard into a deterministic intent spec. [npm](https://www.npmjs.com/package/@stephen.taipei/intent-galaxy)
-
 **Also open source:** **[Adorable Git Graph](https://github.com/stephen-taipei/adorable-git-graph)**: Your git history as a cartoon you can scroll: every commit is a ball with a face, every branch a flowing pipe. [Demo](https://stephen-taipei.github.io/adorable-git-graph/) · [npm](https://www.npmjs.com/package/@stephen.taipei/adorable-git-graph)
 
 [All open-source projects →](https://stephen.taipei/en/open-source)
